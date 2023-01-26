@@ -1,7 +1,3 @@
-.body {
-    
-       
-   }
    .container {
        display: flex;
        background-color: lightblue;
@@ -69,4 +65,10 @@
     height: 3em;
     width: 3em;
 
+}
+.div {
+    opacity: 1;
+}
+.div_hide {
+    opacity: 0;
 }
