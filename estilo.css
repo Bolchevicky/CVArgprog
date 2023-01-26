@@ -1,12 +1,72 @@
 .body {
-    background-color: red;
+    
        
    }
    .container {
-       display: inline-flex;
+       display: flex;
        background-color: lightblue;
+       flex-direction: column;
+       border-radius: 20px;
+       align-items: center;
+       text-align:center;
+       font-family: Georgia, serif; 
+       margin:2em;
+       padding: 2em;
+     
    }
    .item {
-       background-color: red;
+       background-color: wheat;
        min-height: 3em;
+       min-width: 65%;
+       text-align: justify;
+       border-radius: 20px;
+       padding: 1em;
    }
+   .item-1 {
+
+    justify-content: center;
+    text-align: center;
+   }
+   .item-2 {
+    display: inline-table;
+    justify-content: center;
+  
+   }
+   .contact {
+
+    display: table-cell; 
+    text-align: center;
+    
+
+   }
+ 
+   #profile {
+    width: 100px;
+    height:100px;
+    border-radius:150px;
+    border:5px solid rgb(31, 25, 58);
+    margin:0px auto; 
+     
+       }
+.boton{
+     color: rgb(255, 255, 255); 
+     font-size: 0,5em; 
+     line-height: 2em; 
+     padding: o,2em; 
+     border-radius: 12px; 
+     font-family: Georgia, serif; 
+     background-color: #1C6EA4; 
+     border: 2px solid rgb(28, 110, 164); 
+     display: inline-block;}
+.boton:hover {
+    background: #91a9c0;
+    border: 2px solid #91a9c0 ; }
+    
+.boton:active {
+        background: #144E75; }
+
+.logocontacto{
+    height: 3em;
+    width: 3em;
+
+}
