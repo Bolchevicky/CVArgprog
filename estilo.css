@@ -1,0 +1,12 @@
+.body {
+    background-color: red;
+       
+   }
+   .container {
+       display: inline-flex;
+       background-color: lightblue;
+   }
+   .item {
+       background-color: red;
+       min-height: 3em;
+   }
