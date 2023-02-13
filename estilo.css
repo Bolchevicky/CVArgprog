@@ -66,9 +66,9 @@
     width: 3em;
 
 }
-.div {
+#btn {
     opacity: 1;
 }
-.div_hide {
-    opacity: 0;
+#bxhide {
+    opacity: 1;
 }
