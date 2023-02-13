@@ -23,6 +23,9 @@
     justify-content: center;
     text-align: center;
    }
+
+   @media (min-width: 768px) {
+    
    .item-2 {
     display: inline-table;
     justify-content: center;
@@ -34,7 +37,7 @@
     text-align: center;
     
 
-   }
+   }}
  
    #profile {
     width: 100px;
@@ -66,9 +69,16 @@
     width: 3em;
 
 }
-#btn {
+#btn1 {
     opacity: 1;
 }
-#bxhide {
+#bxhide1 {
+    opacity: 1;
+}
+
+#btn2 {
+    opacity: 1;
+}
+#bxhide2 {
     opacity: 1;
 }
